@@ -6,7 +6,7 @@ import time
 
 # --- Configuration ---
 # IMPORTANT: Replace with your actual Gemini API key.
-API_KEY = "AIzaSyCKEHZlvP1L1epBt1Hqz5nvynL44PkNdnk"
+API_KEY = "YOUR_GEMINI_API_KEY_HERE"
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={API_KEY}"
 
 def query_gemini(prompt: str) -> str:
